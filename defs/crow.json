@@ -1,0 +1,19 @@
+{
+    "name": "crow",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": [
+        { "x": -20, "y": 0 },
+        { "x": 10, "y": -15 },
+        { "x": 15, "y": 0 },
+        { "x": 10, "y": 15 }
+    ],
+    "friction": {
+        "collision": 0,
+        "linear": 0,
+        "rotational": 0
+    },
+    "sensors": [],
+    "mass": 1,
+    "controller": "lib/crow.so"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "ground",
+    "type": "static",
+    "description": "Replace this string with a description",
+    "shape": [
+        { "x": -500, "y": -10 },
+        { "x": 500, "y": -10 },
+        { "x": 500, "y": 10 },
+        { "x": -500, "y": 10 }
+    ],
+    "friction": {
+        "collision": 0,
+        "linear": 0,
+        "rotational": 0
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/ground.so"
+}

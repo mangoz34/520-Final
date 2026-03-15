@@ -1,0 +1,19 @@
+{
+    "name": "scoreboard2",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": [
+        { "x": -1, "y": -1 },
+        { "x": 1, "y": -1 },
+        { "x": 1, "y": 1 },
+        { "x": -1, "y": 1 }
+    ],
+    "friction": {
+        "collision": 0,
+        "linear": 0,
+        "rotational": 0
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/scoreboard2.so"
+}

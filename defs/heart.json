@@ -1,0 +1,19 @@
+{
+    "name": "heart",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": [
+        { "x": 0, "y": -10 },
+        { "x": 15, "y": -5 },
+        { "x": 0, "y": 15 },
+        { "x": -15, "y": -5 }
+    ],
+    "friction": {
+        "collision": 0,
+        "linear": 0,
+        "rotational": 0
+    },
+    "sensors": [],
+    "mass": 1,
+    "controller": "lib/heart.so"
+}

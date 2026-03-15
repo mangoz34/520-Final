@@ -1,0 +1,20 @@
+{
+    "name": "star",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": [
+        { "x": 0, "y": -15 },
+        { "x": 14, "y": -5 },
+        { "x": 9, "y": 12 },
+        { "x": -9, "y": 12 },
+        { "x": -14, "y": -5 }
+    ],
+    "friction": {
+        "collision": 0,
+        "linear": 0,
+        "rotational": 0
+    },
+    "sensors": [],
+    "mass": 1,
+    "controller": "lib/star.so"
+}
