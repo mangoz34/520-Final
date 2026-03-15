@@ -1,0 +1,186 @@
+{
+
+    "name": "My Enviro Project",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [],
+
+    "agents": [
+        {
+            "definition": "defs/trex.json",
+            "position": {
+                "x": -200,
+                "y": 110,
+                "theta": 0
+            },
+            "style": {
+                "fill": "transparent",
+                "stroke": "transparent"
+            }
+        },
+
+        {
+            "definition": "defs/ground.json",
+            "style": {
+                "fill": "#555555",
+                "stroke": "none"
+            },
+            "position": {
+                "x": 0,
+                "y": 140,
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/ceiling.json",
+            "style": {
+                "fill": "transparent",
+                "stroke": "none"
+            },
+            "position": {
+                "x": 0,
+                "y": -100,
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/scoreboard.json",
+            "style": {
+                "fill": "transparent",
+                "stroke": "none",
+                "font-size": "24px",
+                "font-weight": "bold",
+                "font-family": "Arial, sans-serif"
+            },
+            "position": {
+                "x": 0,
+                "y": -120,
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/scoreboard2.json",
+            "style": {
+                "fill": "transparent",
+                "stroke": "none",
+                "font-size": "24px",
+                "font-weight": "bold",
+                "font-family": "Arial, sans-serif"
+            },
+            "position": {
+                "x": 0,
+                "y": -120,
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/heart.json",
+            "style": {
+                "fill": "#ff69b4",
+                "stroke": "#c71585"
+            },
+            "position": {
+                "x": 2000,
+                "y": 110,
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/cactus.json",
+            "style": {
+                "fill": "#2d7a3e",
+                "stroke": "#1b4f24"
+            },
+            "position": {
+                "x": 2000,
+                "y": 110,
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/crow.json",
+            "style": {
+                "fill": "#2c3e50",
+                "stroke": "#1a252f"
+            },
+            "position": {
+                "x": 2000,
+                "y": 110,
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/star.json",
+            "style": {
+                "fill": "#ffd700",
+                "stroke": "#d4af37"
+            },
+            "position": {
+                "x": 2000,
+                "y": 110,
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/game_manager.json",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "theta": 0
+            },
+            "style": {
+                "fill": "transparent",
+                "stroke": "none"
+            }
+        }
+    ],
+
+    "statics": [
+        {
+            "style": { "fill": "transparent", "stroke": "none" },
+            "shape": [
+                { "x": -500, "y": -200 },
+                { "x": -500,  "y": 200 },
+                { "x": -490,  "y": 200 },
+                { "x": -490, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "transparent", "stroke": "none" },
+            "shape": [
+                { "x": 500, "y": -200 },
+                { "x": 500,  "y": 200 },
+                { "x": 490,  "y": 200 },
+                { "x": 490, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "transparent", "stroke": "none" },
+            "shape": [
+                { "x": -500, "y": 200 },
+                { "x": 500,  "y": 200 },
+                { "x": 500,  "y": 190 },
+                { "x": -500, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "transparent", "stroke": "none" },
+            "shape": [
+                { "x": -500, "y": -200 },
+                { "x": 500,  "y": -200 },
+                { "x": 500,  "y": -190 },
+                { "x": -500, "y": -190 }
+            ]
+        }
+    ]
+
+}
