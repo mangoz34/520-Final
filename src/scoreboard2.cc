@@ -1,5 +1,5 @@
 #include <iostream>
-#include "cactus.h"
+#include "scoreboard2.h"
 
 using namespace enviro;
 
