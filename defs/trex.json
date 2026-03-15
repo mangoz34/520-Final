@@ -1,0 +1,19 @@
+{
+    "name": "TRex",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": [
+        { "x": -15, "y": -20 },
+        { "x": 15, "y": -20 },
+        { "x": 15, "y": 20 },
+        { "x": -15, "y": 20 }
+    ],
+    "mass": 1,
+    "sensors": [],
+    "friction": {
+        "collision": 0,
+        "linear": 0,
+        "rotational": 0
+    },
+    "controller": "lib/trex.so"
+}
