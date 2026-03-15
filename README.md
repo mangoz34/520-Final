@@ -23,8 +23,9 @@ This is a 2D side-scrolling runner game developed using the **Enviro** and **Elm
    ```
    make
    ```
-4. Run the game:
+4. Start the server:
    ```
+   esm start
    enviro
    ```
 5. Open the link in your browser:
