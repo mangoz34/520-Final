@@ -11,8 +11,8 @@ This is a 2D side-scrolling runner game developed using the **Enviro** and **Elm
 ### Setup Instructions
 1. Clone this repository:
    ```
-   git clone <your-repo-link>
-   cd <project-directory>
+   git clone [<your-repo-link>](https://github.com/mangoz34/520-Final.git)
+   cd 520-Final
    ```
    
 2. Start the Enviro Docker container:
