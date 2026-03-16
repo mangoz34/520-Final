@@ -47,7 +47,7 @@ This is a 2D side-scrolling runner game developed using the **Enviro** and **Elm
 
 ###  Obstacles
 * **Cactus (Ground Threat)**: The classic hazard. These spiked plants move swiftly along the ground, requiring perfectly timed jumps to clear.
-* **Crow (Aerial Threat)**: A highly dynamic flying enemy. It spawns high in the sky and executes dive-bomb attack when it detects the T-Rex is within range, forcing you to stay grounded or time your jumps carefully.
+* **Crow (Aerial Threat)**: A dynamic flying enemy. It spawns in the sky and executes dive attack when it detects the T-Rex is within range, forcing you to jump carefully.
 
 ###  Power-Ups
 * **Heart**: A life-saving collectible. Grabbing a heart restores 1 lost life (up to a maximum of 3), which is crucial for surviving the blinding speeds of the later stages.
